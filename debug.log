@@ -1,0 +1,32 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\memberships\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\daily_pick\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\posts\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\baseball\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\hockey\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\pro_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\college_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sites\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_extensions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_cron\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_crontab\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_celery_beat\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\chroniker\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\crispy_forms\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\account\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\socialaccount\locale with glob **/*.mo.
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
