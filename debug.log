@@ -30,3 +30,2461 @@ Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packag
             WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
             ORDER BY name; args=None
 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\memberships\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\daily_pick\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\posts\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\baseball\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\hockey\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\pro_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\college_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sites\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_extensions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_cron\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_crontab\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_celery_beat\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\chroniker\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\crispy_forms\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\account\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\socialaccount\locale with glob **/*.mo.
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 640
+(0.004) SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1; args=(1,)
+"GET /accounts/account_logoutlogin/ HTTP/1.1" 200 1453
+(0.002) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" IS NULL; args=()
+(0.000) SELECT "account_emailaddress"."id", "account_emailaddress"."user_id", "account_emailaddress"."email", "account_emailaddress"."verified", "account_emailaddress"."primary" FROM "account_emailaddress" WHERE "account_emailaddress"."email" LIKE 'wpltd5@yahoo.com' ESCAPE '\'; args=('wpltd5@yahoo.com',)
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (2); args=(2,)
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."email" LIKE 'wpltd5@yahoo.com' ESCAPE '\'; args=('wpltd5@yahoo.com',)
+(0.000) SELECT (1) AS "a" FROM "account_emailaddress" WHERE ("account_emailaddress"."user_id" = 2 AND "account_emailaddress"."verified" = 1)  LIMIT 1; args=(2, True)
+(0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'i19rbznjwm7hl6m8tgv58bq997kaaszr'  LIMIT 1; args=('i19rbznjwm7hl6m8tgv58bq997kaaszr',)
+(0.000) BEGIN; args=None
+(0.005) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'i19rbznjwm7hl6m8tgv58bq997kaaszr', 'ZTJhZmY1YzRjZTk3YzNlOTJhNGQxMjJjZGU4MGY0ZjYzYmZhNDYzODp7fQ==', '2020-03-22 22:01:53.698346'; args=('i19rbznjwm7hl6m8tgv58bq997kaaszr', 'ZTJhZmY1YzRjZTk3YzNlOTJhNGQxMjJjZGU4MGY0ZjYzYmZhNDYzODp7fQ==', '2020-03-22 22:01:53.698346')
+(0.026) UPDATE "auth_user" SET "last_login" = '2020-03-08 22:01:53.713068' WHERE "auth_user"."id" = 2; args=('2020-03-08 22:01:53.713068', 2)
+(0.000) SELECT "memberships_usermembership"."id", "memberships_usermembership"."user_id", "memberships_usermembership"."stripe_customer_id", "memberships_usermembership"."membership_id" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2; args=(2,)
+(0.000) BEGIN; args=None
+(0.007) UPDATE "django_session" SET "session_data" = 'ZjVkMjAzZDQ5MWRmNTc3NjkxMGRkOWQ0MzgzZDFmMWRiYzc0OGNiYTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiYWxsYXV0aC5hY2NvdW50LmF1dGhfYmFja2VuZHMuQXV0aGVudGljYXRpb25CYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMDlmNzlkMTg4M2UwYWU2ODg3MjRiZDg3YTZiODFlN2RhYjk5NDVhYyIsIl9zZXNzaW9uX2V4cGlyeSI6MH0=', "expire_date" = '2020-03-22 22:01:53.763038' WHERE "django_session"."session_key" = 'i19rbznjwm7hl6m8tgv58bq997kaaszr'; args=('ZjVkMjAzZDQ5MWRmNTc3NjkxMGRkOWQ0MzgzZDFmMWRiYzc0OGNiYTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiYWxsYXV0aC5hY2NvdW50LmF1dGhfYmFja2VuZHMuQXV0aGVudGljYXRpb25CYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMDlmNzlkMTg4M2UwYWU2ODg3MjRiZDg3YTZiODFlN2RhYjk5NDVhYyIsIl9zZXNzaW9uX2V4cGlyeSI6MH0=', '2020-03-22 22:01:53.763038', 'i19rbznjwm7hl6m8tgv58bq997kaaszr')
+"POST /accounts/account_logoutlogin/ HTTP/1.1" 302 0
+"GET /memberships/profile HTTP/1.1" 301 0
+(0.010) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-03-08 22:01:53.826003' AND "django_session"."session_key" = 'i19rbznjwm7hl6m8tgv58bq997kaaszr'); args=('2020-03-08 22:01:53.826003', 'i19rbznjwm7hl6m8tgv58bq997kaaszr')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2; args=(2,)
+(0.001) SELECT (1) AS "a" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2  LIMIT 1; args=(2,)
+(0.001) SELECT "memberships_usermembership"."id", "memberships_usermembership"."user_id", "memberships_usermembership"."stripe_customer_id", "memberships_usermembership"."membership_id" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2 ORDER BY "memberships_usermembership"."id" ASC  LIMIT 1; args=(2,)
+(0.001) SELECT (1) AS "a" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2  LIMIT 1; args=(2,)
+(0.001) SELECT "memberships_usermembership"."id", "memberships_usermembership"."user_id", "memberships_usermembership"."stripe_customer_id", "memberships_usermembership"."membership_id" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2 ORDER BY "memberships_usermembership"."id" ASC  LIMIT 1; args=(2,)
+(0.002) SELECT (1) AS "a" FROM "memberships_subscription" WHERE "memberships_subscription"."user_membership_id" = 2  LIMIT 1; args=(2,)
+(0.003) SELECT "memberships_subscription"."id", "memberships_subscription"."user_membership_id", "memberships_subscription"."stripe_subscription_id", "memberships_subscription"."active" FROM "memberships_subscription" WHERE "memberships_subscription"."user_membership_id" = 2 ORDER BY "memberships_subscription"."id" ASC  LIMIT 1; args=(2,)
+(0.001) SELECT "daily_pick_dailypick"."id", "daily_pick_dailypick"."title", "daily_pick_dailypick"."slug", "daily_pick_dailypick"."author_id", "daily_pick_dailypick"."updated_on", "daily_pick_dailypick"."content", "daily_pick_dailypick"."created_on", "daily_pick_dailypick"."status" FROM "daily_pick_dailypick" ORDER BY "daily_pick_dailypick"."created_on" DESC  LIMIT 21; args=()
+(0.003) SELECT (1) AS "a" FROM "daily_pick_dailypick"  LIMIT 1; args=()
+(0.002) SELECT "daily_pick_dailypick"."id", "daily_pick_dailypick"."title", "daily_pick_dailypick"."slug", "daily_pick_dailypick"."author_id", "daily_pick_dailypick"."updated_on", "daily_pick_dailypick"."content", "daily_pick_dailypick"."created_on", "daily_pick_dailypick"."status" FROM "daily_pick_dailypick" ORDER BY "daily_pick_dailypick"."created_on" DESC  LIMIT 1; args=()
+(0.001) SELECT "memberships_membership"."id", "memberships_membership"."slug", "memberships_membership"."membership_type", "memberships_membership"."description", "memberships_membership"."price", "memberships_membership"."stripe_plan_id" FROM "memberships_membership" WHERE "memberships_membership"."id" = 1; args=(1,)
+"GET /memberships/profile/ HTTP/1.1" 200 2825
+(0.008) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE django_datetime_cast_date("pro_hoops_schedulenba"."match_time", 'America/Chicago') >= '2020-03-08'; args=('2020-03-08',)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (81)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (81)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (82)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (82)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (83)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (83)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (84)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (84)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (85)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (85)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (86)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (86)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (89)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (89)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (90)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (90)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (92)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (92)>
+"GET /pro_hoops/ HTTP/1.1" 200 5937
+(0.003) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 81; args=(81,)
+(0.000) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 81; args=(81,)
+(0.001) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 81; args=(81,)
+(0.001) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 81; args=(81,)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_odds.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (81)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_odds.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (81)>
+(0.001) SELECT "pro_hoops_oddsnba"."id", "pro_hoops_oddsnba"."draw_line", "pro_hoops_oddsnba"."entity_id", "pro_hoops_oddsnba"."schedule_id", "pro_hoops_oddsnba"."last_updated", "pro_hoops_oddsnba"."money_line_away", "pro_hoops_oddsnba"."money_line_home", "pro_hoops_oddsnba"."odd_type", "pro_hoops_oddsnba"."over_line", "pro_hoops_oddsnba"."point_spread_away", "pro_hoops_oddsnba"."point_spread_away_line", "pro_hoops_oddsnba"."point_spread_home", "pro_hoops_oddsnba"."point_spread_home_line", "pro_hoops_oddsnba"."site_id", "pro_hoops_oddsnba"."total_number", "pro_hoops_oddsnba"."under_line" FROM "pro_hoops_oddsnba" WHERE "pro_hoops_oddsnba"."schedule_id" = 81; args=(81,)
+"GET /pro_hoops/show_hoop_odds/81 HTTP/1.1" 200 2410
+C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\db\models\fields\__init__.py:1421: RuntimeWarning: DateTimeField ScheduleNBA.match_time received a naive datetime (2020-03-09 23:35:00) while time zone support is active.
+  RuntimeWarning)
+C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\db\models\fields\__init__.py:1421: RuntimeWarning: DateTimeField OddsNBA.last_updated received a naive datetime (2020-03-09 05:20:37) while time zone support is active.
+  RuntimeWarning)
+C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\db\models\fields\__init__.py:1421: RuntimeWarning: DateTimeField ScheduleNBA.match_time received a naive datetime (2020-03-10 01:05:00) while time zone support is active.
+  RuntimeWarning)
+C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\db\models\fields\__init__.py:1421: RuntimeWarning: DateTimeField OddsNBA.last_updated received a naive datetime (2020-03-09 01:31:25) while time zone support is active.
+  RuntimeWarning)
+I'm in post_odds!!
+[{'ID': 'b92487c9-b611-46ce-bd5d-9b5acee29342', 'HomeTeam': 'Atlanta Hawks', 'AwayTeam': 'Charlotte Hornets', 'Sport': 1, 'MatchTime': '2020-03-09T23:35:00', 'Details': 'Charlotte Hornets at Atlanta Hawks', 'HomeROT': '524', 'AwayROT': '523', 'Odds': [{'ID': '7bbc5f8e-bed4-4509-85ea-65e1a6c6c158', 'EventID': 'b92487c9-b611-46ce-bd5d-9b5acee29342', 'OddType': 'FirstHalf', 'MoneyLineAway': '0', 'MoneyLineHome': '0', 'OverLine': '-110', 'TotalNumber': '115.5', 'UnderLine': '-110', 'PointSpreadAway': '2.0', 'PointSpreadHome': '-2.0', 'PointSpreadAwayLine': '-110', 'PointSpreadHomeLine': '-110', 'DrawLine': '0', 'SiteID': 11, 'LastUpdated': '2020-03-09T05:20:37'}]}]
+:-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-)
+I'm in post_odds!!
+[{'ID': 'b92487c9-b611-46ce-bd5d-9b5acee29342', 'HomeTeam': 'Atlanta Hawks', 'AwayTeam': 'Charlotte Hornets', 'Sport': 1, 'MatchTime': '2020-03-09T23:35:00', 'Details': 'Charlotte Hornets at Atlanta Hawks', 'HomeROT': '524', 'AwayROT': '523', 'Odds': [{'ID': 'b92487c9-b611-46ce-bd5d-9b5acee29342', 'EventID': 'b92487c9-b611-46ce-bd5d-9b5acee29342', 'OddType': 'Game', 'MoneyLineAway': '159', 'MoneyLineHome': '-181', 'OverLine': '-110', 'TotalNumber': '225.0', 'UnderLine': '-110', 'PointSpreadAway': '4.5', 'PointSpreadHome': '-4.5', 'PointSpreadAwayLine': '-111', 'PointSpreadHomeLine': '-106', 'DrawLine': '0', 'SiteID': 11, 'LastUpdated': '2020-03-09T05:20:37'}]}]
+:-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-)
+I'm in post_odds!!
+[{'ID': '0f4a4233-5d8b-4e85-99f3-c5d4096585b1', 'HomeTeam': 'Utah Jazz', 'AwayTeam': 'Toronto Raptors', 'Sport': 1, 'MatchTime': '2020-03-10T01:05:00', 'Details': 'Toronto Raptors at Utah Jazz', 'HomeROT': '526', 'AwayROT': '525', 'Odds': [{'ID': '0f4a4233-5d8b-4e85-99f3-c5d4096585b1', 'EventID': '0f4a4233-5d8b-4e85-99f3-c5d4096585b1', 'OddType': 'Game', 'MoneyLineAway': '162', 'MoneyLineHome': '-189', 'OverLine': '-110', 'TotalNumber': '225.0', 'UnderLine': '-110', 'PointSpreadAway': '4.0', 'PointSpreadHome': '-4.0', 'PointSpreadAwayLine': '-109', 'PointSpreadHomeLine': '-109', 'DrawLine': '0', 'SiteID': 11, 'LastUpdated': '2020-03-09T05:20:37'}]}]
+:-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-)
+I'm in post_odds!!
+[{'ID': '0f4a4233-5d8b-4e85-99f3-c5d4096585b1', 'HomeTeam': 'Utah Jazz', 'AwayTeam': 'Toronto Raptors', 'Sport': 1, 'MatchTime': '2020-03-10T01:05:00', 'Details': 'Toronto Raptors at Utah Jazz', 'HomeROT': '526', 'AwayROT': '525', 'Odds': [{'ID': 'a1762a95-4a56-402f-97e6-4efa4cf423a6', 'EventID': '0f4a4233-5d8b-4e85-99f3-c5d4096585b1', 'OddType': 'FirstHalf', 'MoneyLineAway': '0', 'MoneyLineHome': '0', 'OverLine': '-110', 'TotalNumber': '115.5', 'UnderLine': '-110', 'PointSpreadAway': '2.0', 'PointSpreadHome': '-2.0', 'PointSpreadAwayLine': '-110', 'PointSpreadHomeLine': '-110', 'DrawLine': '0', 'SiteID': 11, 'LastUpdated': '2020-03-09T01:31:25'}]}]
+:-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-):-)
+No (valid) module for script 'NBAclient' found
+Try running with a higher verbosity level like: -v2 or -v3
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\memberships\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\daily_pick\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\posts\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\baseball\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\hockey\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\pro_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\college_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sites\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_extensions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_cron\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_crontab\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_celery_beat\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\chroniker\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\crispy_forms\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\account\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\socialaccount\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 640
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\urls\resolvers.py", line 558, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/'>], [<URLPattern ''>], [<URLResolver <module 'allauth.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\djangoPy3Qenv\\lib\\site-packages\\allauth\\urls.py'> (None:None) 'accounts/account_logout'>], [<URLResolver <module 'apps.memberships.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\memberships\\urls.py'> (memberships:memberships) 'memberships/'>], [<URLResolver <module 'apps.posts.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\posts\\urls.py'> (posts:posts) 'posts/'>], [<URLResolver <module 'apps.daily_pick.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\daily_pick\\urls.py'> (daily_pick:daily_picks) 'daily_pick/'>], [<URLResolver <module 'apps.hockey.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\hockey\\urls.py'> (hockey:hockey) 'hockey/'>], [<URLResolver <module 'apps.pro_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\pro_hoops\\urls.py'> (pro_hoops:pro_hoops) 'pro_hoops/'>], [<URLResolver <module 'apps.college_hoops.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\college_hoops\\urls.py'> (college_hoops:college_hoops) 'college_hoops/'>], [<URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'apps.baseball.urls' from 'C:\\Users\\eric\\Desktop\\my_Environments\\Blog_Sports_I\\apps\\baseball\\urls.py'> (baseball:MLB_baseball) 'baseball/'>
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3080
+(0.006) SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1; args=(1,)
+"GET /accounts/account_logoutlogin/ HTTP/1.1" 200 1453
+(0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" IS NULL; args=()
+(0.001) SELECT "account_emailaddress"."id", "account_emailaddress"."user_id", "account_emailaddress"."email", "account_emailaddress"."verified", "account_emailaddress"."primary" FROM "account_emailaddress" WHERE "account_emailaddress"."email" LIKE 'wpltd5@yahoo.com' ESCAPE '\'; args=('wpltd5@yahoo.com',)
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (2); args=(2,)
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."email" LIKE 'wpltd5@yahoo.com' ESCAPE '\'; args=('wpltd5@yahoo.com',)
+(0.001) SELECT (1) AS "a" FROM "account_emailaddress" WHERE ("account_emailaddress"."user_id" = 2 AND "account_emailaddress"."verified" = 1)  LIMIT 1; args=(2, True)
+(0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'zjarjqmmdfinjfqh6tfa21p6znbq2ywy'  LIMIT 1; args=('zjarjqmmdfinjfqh6tfa21p6znbq2ywy',)
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'zjarjqmmdfinjfqh6tfa21p6znbq2ywy', 'ZTJhZmY1YzRjZTk3YzNlOTJhNGQxMjJjZGU4MGY0ZjYzYmZhNDYzODp7fQ==', '2020-03-23 05:10:41.837154'; args=('zjarjqmmdfinjfqh6tfa21p6znbq2ywy', 'ZTJhZmY1YzRjZTk3YzNlOTJhNGQxMjJjZGU4MGY0ZjYzYmZhNDYzODp7fQ==', '2020-03-23 05:10:41.837154')
+(0.022) UPDATE "auth_user" SET "last_login" = '2020-03-09 05:10:41.863138' WHERE "auth_user"."id" = 2; args=('2020-03-09 05:10:41.863138', 2)
+(0.000) SELECT "memberships_usermembership"."id", "memberships_usermembership"."user_id", "memberships_usermembership"."stripe_customer_id", "memberships_usermembership"."membership_id" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2; args=(2,)
+(0.000) BEGIN; args=None
+(0.001) UPDATE "django_session" SET "session_data" = 'ZjVkMjAzZDQ5MWRmNTc3NjkxMGRkOWQ0MzgzZDFmMWRiYzc0OGNiYTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiYWxsYXV0aC5hY2NvdW50LmF1dGhfYmFja2VuZHMuQXV0aGVudGljYXRpb25CYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMDlmNzlkMTg4M2UwYWU2ODg3MjRiZDg3YTZiODFlN2RhYjk5NDVhYyIsIl9zZXNzaW9uX2V4cGlyeSI6MH0=', "expire_date" = '2020-03-23 05:10:41.938096' WHERE "django_session"."session_key" = 'zjarjqmmdfinjfqh6tfa21p6znbq2ywy'; args=('ZjVkMjAzZDQ5MWRmNTc3NjkxMGRkOWQ0MzgzZDFmMWRiYzc0OGNiYTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiYWxsYXV0aC5hY2NvdW50LmF1dGhfYmFja2VuZHMuQXV0aGVudGljYXRpb25CYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMDlmNzlkMTg4M2UwYWU2ODg3MjRiZDg3YTZiODFlN2RhYjk5NDVhYyIsIl9zZXNzaW9uX2V4cGlyeSI6MH0=', '2020-03-23 05:10:41.938096', 'zjarjqmmdfinjfqh6tfa21p6znbq2ywy')
+"POST /accounts/account_logoutlogin/ HTTP/1.1" 302 0
+"GET /memberships/profile HTTP/1.1" 301 0
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-03-09 05:10:41.997063' AND "django_session"."session_key" = 'zjarjqmmdfinjfqh6tfa21p6znbq2ywy'); args=('2020-03-09 05:10:41.997063', 'zjarjqmmdfinjfqh6tfa21p6znbq2ywy')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2; args=(2,)
+(0.001) SELECT (1) AS "a" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2  LIMIT 1; args=(2,)
+(0.001) SELECT "memberships_usermembership"."id", "memberships_usermembership"."user_id", "memberships_usermembership"."stripe_customer_id", "memberships_usermembership"."membership_id" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2 ORDER BY "memberships_usermembership"."id" ASC  LIMIT 1; args=(2,)
+(0.001) SELECT (1) AS "a" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2  LIMIT 1; args=(2,)
+(0.001) SELECT "memberships_usermembership"."id", "memberships_usermembership"."user_id", "memberships_usermembership"."stripe_customer_id", "memberships_usermembership"."membership_id" FROM "memberships_usermembership" WHERE "memberships_usermembership"."user_id" = 2 ORDER BY "memberships_usermembership"."id" ASC  LIMIT 1; args=(2,)
+(0.000) SELECT (1) AS "a" FROM "memberships_subscription" WHERE "memberships_subscription"."user_membership_id" = 2  LIMIT 1; args=(2,)
+(0.001) SELECT "memberships_subscription"."id", "memberships_subscription"."user_membership_id", "memberships_subscription"."stripe_subscription_id", "memberships_subscription"."active" FROM "memberships_subscription" WHERE "memberships_subscription"."user_membership_id" = 2 ORDER BY "memberships_subscription"."id" ASC  LIMIT 1; args=(2,)
+(0.001) SELECT "daily_pick_dailypick"."id", "daily_pick_dailypick"."title", "daily_pick_dailypick"."slug", "daily_pick_dailypick"."author_id", "daily_pick_dailypick"."updated_on", "daily_pick_dailypick"."content", "daily_pick_dailypick"."created_on", "daily_pick_dailypick"."status" FROM "daily_pick_dailypick" ORDER BY "daily_pick_dailypick"."created_on" DESC  LIMIT 21; args=()
+(0.000) SELECT (1) AS "a" FROM "daily_pick_dailypick"  LIMIT 1; args=()
+(0.001) SELECT "daily_pick_dailypick"."id", "daily_pick_dailypick"."title", "daily_pick_dailypick"."slug", "daily_pick_dailypick"."author_id", "daily_pick_dailypick"."updated_on", "daily_pick_dailypick"."content", "daily_pick_dailypick"."created_on", "daily_pick_dailypick"."status" FROM "daily_pick_dailypick" ORDER BY "daily_pick_dailypick"."created_on" DESC  LIMIT 1; args=()
+(0.000) SELECT "memberships_membership"."id", "memberships_membership"."slug", "memberships_membership"."membership_type", "memberships_membership"."description", "memberships_membership"."price", "memberships_membership"."stripe_plan_id" FROM "memberships_membership" WHERE "memberships_membership"."id" = 1; args=(1,)
+"GET /memberships/profile/ HTTP/1.1" 200 2825
+(0.008) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE django_datetime_cast_date("pro_hoops_schedulenba"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+"GET /pro_hoops/ HTTP/1.1" 200 3863
+(0.018) SELECT "hockey_schedulenhl"."id", "hockey_schedulenhl"."api_id_key", "hockey_schedulenhl"."away_rot", "hockey_schedulenhl"."away_team", "hockey_schedulenhl"."home_rot", "hockey_schedulenhl"."home_team", "hockey_schedulenhl"."match_time" FROM "hockey_schedulenhl" WHERE django_datetime_cast_date("hockey_schedulenhl"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNHL: ScheduleNHL object (169)>
+Exception while resolving variable 'home_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNHL: ScheduleNHL object (169)>
+Exception while resolving variable 'away_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNHL: ScheduleNHL object (170)>
+Exception while resolving variable 'home_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNHL: ScheduleNHL object (170)>
+Exception while resolving variable 'away_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNHL: ScheduleNHL object (171)>
+Exception while resolving variable 'home_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNHL: ScheduleNHL object (171)>
+Exception while resolving variable 'away_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNHL: ScheduleNHL object (172)>
+Exception while resolving variable 'home_pitcher' in template 'hockey/hockey_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNHL' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNHL' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNHL: ScheduleNHL object (172)>
+"GET /hockey/ HTTP/1.1" 200 3892
+(0.007) SELECT "baseball_schedulemlb"."id", "baseball_schedulemlb"."away_pitcher", "baseball_schedulemlb"."away_rot", "baseball_schedulemlb"."away_team", "baseball_schedulemlb"."details", "baseball_schedulemlb"."home_pitcher", "baseball_schedulemlb"."home_rot", "baseball_schedulemlb"."home_team", "baseball_schedulemlb"."api_id_key", "baseball_schedulemlb"."match_time" FROM "baseball_schedulemlb" WHERE django_datetime_cast_date("baseball_schedulemlb"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+"GET /baseball/ HTTP/1.1" 200 4628
+(0.005) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE django_datetime_cast_date("pro_hoops_schedulenba"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+"GET /pro_hoops/ HTTP/1.1" 200 3863
+(0.018) SELECT "college_hoops_schedulencaab"."id", "college_hoops_schedulencaab"."api_id_key", "college_hoops_schedulencaab"."away_rot", "college_hoops_schedulencaab"."away_team", "college_hoops_schedulencaab"."home_rot", "college_hoops_schedulencaab"."home_team", "college_hoops_schedulencaab"."match_time" FROM "college_hoops_schedulencaab" WHERE django_datetime_cast_date("college_hoops_schedulencaab"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'college_hoops/ncaab_hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNCAAB' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNCAAB' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNCAAB: ScheduleNCAAB object (445)>
+Exception while resolving variable 'home_pitcher' in template 'college_hoops/ncaab_hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNCAAB' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNCAAB' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNCAAB: ScheduleNCAAB object (445)>
+"GET /college_hoops/ HTTP/1.1" 200 3010
+(0.006) SELECT "college_hoops_schedulencaab"."id", "college_hoops_schedulencaab"."api_id_key", "college_hoops_schedulencaab"."away_rot", "college_hoops_schedulencaab"."away_team", "college_hoops_schedulencaab"."home_rot", "college_hoops_schedulencaab"."home_team", "college_hoops_schedulencaab"."match_time" FROM "college_hoops_schedulencaab" WHERE "college_hoops_schedulencaab"."id" = 445; args=(445,)
+(0.001) SELECT "college_hoops_schedulencaab"."id", "college_hoops_schedulencaab"."api_id_key", "college_hoops_schedulencaab"."away_rot", "college_hoops_schedulencaab"."away_team", "college_hoops_schedulencaab"."home_rot", "college_hoops_schedulencaab"."home_team", "college_hoops_schedulencaab"."match_time" FROM "college_hoops_schedulencaab" WHERE "college_hoops_schedulencaab"."id" = 445; args=(445,)
+(0.002) SELECT "college_hoops_schedulencaab"."id", "college_hoops_schedulencaab"."api_id_key", "college_hoops_schedulencaab"."away_rot", "college_hoops_schedulencaab"."away_team", "college_hoops_schedulencaab"."home_rot", "college_hoops_schedulencaab"."home_team", "college_hoops_schedulencaab"."match_time" FROM "college_hoops_schedulencaab" WHERE "college_hoops_schedulencaab"."id" = 445; args=(445,)
+(0.000) SELECT "college_hoops_schedulencaab"."id", "college_hoops_schedulencaab"."api_id_key", "college_hoops_schedulencaab"."away_rot", "college_hoops_schedulencaab"."away_team", "college_hoops_schedulencaab"."home_rot", "college_hoops_schedulencaab"."home_team", "college_hoops_schedulencaab"."match_time" FROM "college_hoops_schedulencaab" WHERE "college_hoops_schedulencaab"."id" = 445; args=(445,)
+Exception while resolving variable 'away_pitcher' in template 'college_hoops/ncaab_hoop_odds.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNCAAB' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNCAAB' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNCAAB: ScheduleNCAAB object (445)>
+Exception while resolving variable 'home_pitcher' in template 'college_hoops/ncaab_hoop_odds.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNCAAB' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNCAAB' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNCAAB: ScheduleNCAAB object (445)>
+(0.001) SELECT "college_hoops_oddsncaab"."id", "college_hoops_oddsncaab"."draw_line", "college_hoops_oddsncaab"."entity_id", "college_hoops_oddsncaab"."schedule_id", "college_hoops_oddsncaab"."last_updated", "college_hoops_oddsncaab"."money_line_away", "college_hoops_oddsncaab"."money_line_home", "college_hoops_oddsncaab"."odd_type", "college_hoops_oddsncaab"."over_line", "college_hoops_oddsncaab"."point_spread_away", "college_hoops_oddsncaab"."point_spread_away_line", "college_hoops_oddsncaab"."point_spread_home", "college_hoops_oddsncaab"."point_spread_home_line", "college_hoops_oddsncaab"."site_id", "college_hoops_oddsncaab"."total_number", "college_hoops_oddsncaab"."under_line" FROM "college_hoops_oddsncaab" WHERE "college_hoops_oddsncaab"."schedule_id" = 445; args=(445,)
+"GET /college_hoops/show_ncaab_hoop_odds/445 HTTP/1.1" 200 1914
+(0.020) SELECT "college_hoops_schedulencaab"."id", "college_hoops_schedulencaab"."api_id_key", "college_hoops_schedulencaab"."away_rot", "college_hoops_schedulencaab"."away_team", "college_hoops_schedulencaab"."home_rot", "college_hoops_schedulencaab"."home_team", "college_hoops_schedulencaab"."match_time" FROM "college_hoops_schedulencaab" WHERE django_datetime_cast_date("college_hoops_schedulencaab"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'college_hoops/ncaab_hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNCAAB' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNCAAB' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNCAAB: ScheduleNCAAB object (445)>
+Exception while resolving variable 'home_pitcher' in template 'college_hoops/ncaab_hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNCAAB' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNCAAB' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNCAAB: ScheduleNCAAB object (445)>
+"GET /college_hoops/ HTTP/1.1" 200 3010
+(0.007) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE django_datetime_cast_date("pro_hoops_schedulenba"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+"GET /pro_hoops/ HTTP/1.1" 200 3863
+(0.005) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 87; args=(87,)
+(0.000) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 87; args=(87,)
+(0.001) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 87; args=(87,)
+(0.001) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE "pro_hoops_schedulenba"."id" = 87; args=(87,)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_odds.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_odds.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+(0.001) SELECT "pro_hoops_oddsnba"."id", "pro_hoops_oddsnba"."draw_line", "pro_hoops_oddsnba"."entity_id", "pro_hoops_oddsnba"."schedule_id", "pro_hoops_oddsnba"."last_updated", "pro_hoops_oddsnba"."money_line_away", "pro_hoops_oddsnba"."money_line_home", "pro_hoops_oddsnba"."odd_type", "pro_hoops_oddsnba"."over_line", "pro_hoops_oddsnba"."point_spread_away", "pro_hoops_oddsnba"."point_spread_away_line", "pro_hoops_oddsnba"."point_spread_home", "pro_hoops_oddsnba"."point_spread_home_line", "pro_hoops_oddsnba"."site_id", "pro_hoops_oddsnba"."total_number", "pro_hoops_oddsnba"."under_line" FROM "pro_hoops_oddsnba" WHERE "pro_hoops_oddsnba"."schedule_id" = 87; args=(87,)
+"GET /pro_hoops/show_hoop_odds/87 HTTP/1.1" 200 2418
+(0.006) SELECT "pro_hoops_schedulenba"."id", "pro_hoops_schedulenba"."api_id_key", "pro_hoops_schedulenba"."away_rot", "pro_hoops_schedulenba"."away_team", "pro_hoops_schedulenba"."home_rot", "pro_hoops_schedulenba"."home_team", "pro_hoops_schedulenba"."match_time" FROM "pro_hoops_schedulenba" WHERE django_datetime_cast_date("pro_hoops_schedulenba"."match_time", 'America/Chicago') >= '2020-03-09'; args=('2020-03-09',)
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (87)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (88)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (93)>
+Exception while resolving variable 'away_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'away_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [away_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+Exception while resolving variable 'home_pitcher' in template 'pro_hoops/hoop_index.html'.
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ScheduleNBA' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'ScheduleNBA' object has no attribute 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'home_pitcher'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [home_pitcher] in <ScheduleNBA: ScheduleNBA object (94)>
+"GET /pro_hoops/ HTTP/1.1" 200 3863
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\memberships\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\daily_pick\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\posts\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\baseball\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\hockey\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\pro_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\Blog_Sports_I\apps\college_hoops\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django\contrib\sites\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_extensions\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_cron\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_crontab\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\django_celery_beat\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\chroniker\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\crispy_forms\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\account\locale with glob **/*.mo.
+Watching dir C:\Users\eric\Desktop\my_Environments\djangoPy3Qenv\lib\site-packages\allauth\socialaccount\locale with glob **/*.mo.
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
